@@ -197,3 +197,33 @@ form div:nth-child(4) input{
 .tooltip:focus-within .tooltip-text{
     visibility: visible;
 }
+
+/* Animations */
+
+.intuit {
+    animation-name: slide1;
+    animation-duration: 3s;
+}
+@keyframes slide1 {
+    from {
+        margin-right: -100%;
+    }
+    to {
+        margin-right: 572px;
+    }
+}
+
+.imgs{
+    animation-name: slide;
+    animation-duration: 3s;    
+}
+
+@keyframes slide {
+    from {
+        margin-right: -100%;        
+    }
+    to {
+        margin-right: 37%;
+    }
+}
+
